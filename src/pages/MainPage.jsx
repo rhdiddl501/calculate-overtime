@@ -1,6 +1,6 @@
 import React from "react"
 
-const Main = () => {
+const MainPage = () => {
     return(
         <div>
             <h2>Main.jsx</h2>
@@ -8,4 +8,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default MainPage;
