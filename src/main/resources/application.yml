@@ -1,0 +1,12 @@
+server:
+  address: localhost
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql//127.0.0.1:3306/calculate_overtime?useUnicode=true&characterEncoding=UTF-8&characterSetResult=UTF-8&useSSL=false
+    username: CAL-OVERTIME
+    password: overtimecalculate0923!
+
+
