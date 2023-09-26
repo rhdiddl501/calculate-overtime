@@ -1,10 +1,12 @@
 import React, { useState } from "react"
+import memberApi from "apis/memberApi"
 
 const LoginPage = () => {
 
     const [loginForm, setLoginForm] = useState({loginId: '', password: ''})
 
-    const signUpHandler = () => {
+    const signUpHandler = async () => {
+        const data = await memberApi.login(loginForm);
         
         return false;
     }
